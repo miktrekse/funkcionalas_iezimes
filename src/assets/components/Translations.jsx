@@ -1,8 +1,9 @@
 import Table from "./Table";
 
 const gherkinTerms = [
-  { en: "Feature", lv: "Funkcionalitāte" },
-  { en: "Scenario", lv: "Scenārijs" },
+  { en: "Feature", lv: "Funkcionālā iezīme" },
+  { en: "Background", lv: "Fons" },
+  { en: "Scenario", lv: "Scenārijs pēc parauga" },
   { en: "Given", lv: "Ņemot vērā" },
   { en: "When", lv: "Kad" },
   { en: "Then", lv: "Tad" },
