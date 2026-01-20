@@ -1,0 +1,14 @@
+name = "funkcionalas_iezimes"
+type = "javascript"
+main = "src/index.js"
+
+[env.production]
+name = "funkcionalas_iezimes-prod"
+
+[build]
+command = "npm run build"
+cwd = "./"
+
+[build.upload]
+format = "modules"
+main = "./dist"
