@@ -3,6 +3,7 @@ import Table from "./Table";
 const gherkinTerms = [
   { en: "Feature", lv: "Funkcionālā iezīme" },
   { en: "Background", lv: "Kontekts" },
+  { en: "Rule", lv: "Noteikums" },
   { en: "Scenario", lv: "Scenārijs" },
   { en: "Scenario Outline", lv: "Scenārijs pēc parauga" },
   { en: "Examples", lv: "Piemēri" },
