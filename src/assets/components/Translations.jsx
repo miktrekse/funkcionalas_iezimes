@@ -2,10 +2,12 @@ import Table from "./Table";
 
 const gherkinTerms = [
   { en: "Feature", lv: "Funkcionālā iezīme" },
-  { en: "Background", lv: "Fons" },
-  { en: "Scenario", lv: "Scenārijs pēc parauga" },
-  { en: "Given", lv: "Ņemot vērā" },
-  { en: "When", lv: "Kad" },
+  { en: "Background", lv: "Kontekts" },
+  { en: "Scenario", lv: "Scenārijs" },
+  { en: "Scenario Outline", lv: "Scenārijs pēc parauga" },
+  { en: "Examples", lv: "Piemēri" },
+  { en: "Given", lv: "Kad" },
+  { en: "When", lv: "Ja" },
   { en: "Then", lv: "Tad" },
   { en: "And", lv: "Un" },
   { en: "But", lv: "Bet" }
